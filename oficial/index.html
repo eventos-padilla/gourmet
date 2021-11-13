@@ -82,20 +82,7 @@
     <div id="cabeza" style="background-image: url(../oficial/img/rosa.jpg);background-size:cover;background-attachment: fixed;background-position:center;">
         <br><br><br>
   <center>
-      <h1 id="titulo" style="background-color: black;opacity:0.7;"></h1>
-    <script>
-      var texto="Ofrecemos queques navideños , realizados con ingredientes de alta calidad.";
 
-var i = 0;
-function maquinaescribir(){
- if(i < texto.length){
-  document.getElementById('titulo').innerHTML+=texto.charAt(i);
-  i++;
- }
-}
-
-setInterval(maquinaescribir, 50);
-    </script>
 
    
  <!-- <br><br>
@@ -362,7 +349,21 @@ setInterval(maquinaescribir, 50);
   <br><br>
 
   <button  class="button"  onclick="window.location.href='https://api.whatsapp.com/send?phone=+50663053562&text=buenas%20para%20pedir%20informacion%20de%20los%20servicios'">Pedir Informacion</button>
+<br><br>
+<h6 id="titulo" style="background-color: black;opacity:0.7;"></h6>
+<script>
+  var texto="Escribanos sera un gusto atenderlos :) ";
 
+var i = 0;
+function maquinaescribir(){
+if(i < texto.length){
+document.getElementById('titulo').innerHTML+=texto.charAt(i);
+i++;
+}
+}
+
+setInterval(maquinaescribir, 50);
+</script>
 </center>  
       </div>
       
