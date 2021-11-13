@@ -1,0 +1,14 @@
+
+.mySlides { 
+    display:none;
+}
+.w3-left, .w3-right, .w3-badge {  
+    cursor:pointer;/*enseña el dedito*/
+    background-color: #ff0095;
+    border-radius: 100px;
+    width: 80px;
+        
+}
+.w3-badge {
+    
+    height:33px;width:23px;padding:0}

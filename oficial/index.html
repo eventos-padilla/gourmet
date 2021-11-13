@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="navbar.scss">
+    <link rel="stylesheet" href="navbar.css">
+    <title>EVENTOS PADILLA - SERVICIOS GOURMET</title>
+    <link rel="shortcut icon" href="img/evento.jpg"> 
+</head>
+<header class="header">
+    <div class="header-wrap u-flex u-flexCenter u-container">
+      
+      <!-- Logo -->
+      <div class="header-left u-flex0">
+        <a href="/" class="logo">&copy; EVENTOS PADILLA &trade;</a>
+      </div>
+      
+      <!-- menu -->
+      <nav class="header-center menu u-flex1">
+        <ul class="u-flex u-flexCenter u-hide-before-md">
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Reposteria</a></li>
+          <li><a href="#">Eventos Especiales</a></li>
+          <li><a href="#">Almuerzos</a></li>
+          <li><a href="#">Comidad Gourmet</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-right u-flex u-flexCenter u-flex0">
+      <!-- Social Media -->
+        <div class="follow u-hide-before-md">
+          <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        </div>
+        
+        <!-- Menu Open Close -->
+        <a href="#" class="button-nav--toggle u-hide-after-md">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+      
+    </div>
+    
+    <!-- Sidenav  -->
+    <div class="sidenav">
+      <div class="sidenav-wrap">
+        <ul>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Reposteria</a></li>
+          <li><a href="#">Eventos Especiales</a></li>
+          <li><a href="#">Almuerzos</a></li>
+          <li><a href="#">Comidad Gourmet</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <script>
+    $(document).ready(function() {
+  
+        /* CLick BTN (Open and Close) */
+        $('.button-nav--toggle').on('click', function(e) {
+          e.preventDefault();
+          $('body').toggleClass('is-showNavMob');
+        });
+        
+      });
+  </script>
+ 
+  <body style="width: 100%;">
+
+  <!---------------------Maquina escribit------->
+  <link rel="stylesheet" href="css/maquina.css">
+    <div id="cabeza" style="background-image: url(../oficial/img/rosa.jpg);background-size:cover;background-attachment: fixed;background-position:center;">
+        <br><br><br>
+  <center>
+      <h1 id="titulo" style="background-color: black;opacity:0.7;"></h1>
+    <script>
+      var texto="Ofrecemos queques navideños , realizados con ingredientes de alta calidad.";
+
+var i = 0;
+function maquinaescribir(){
+ if(i < texto.length){
+  document.getElementById('titulo').innerHTML+=texto.charAt(i);
+  i++;
+ }
+}
+
+setInterval(maquinaescribir, 50);
+    </script>
+
+   
+ <!-- <br><br>
+ <ion-icon name="logo-facebook" id="icono1"></ion-icon>
+ <ion-icon name="logo-Instagram" id="icono1"></ion-icon>
+ <ion-icon name="logo-whatsapp" id="icono1"></ion-icon>
+ <br><br> -->
+      
+    </h6>
+
+    <br><br>
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <h3>Gerente</h3>
+          <img src="../oficial/img/carita.jpg" alt="" width="50%">
+          <br><br>
+          <button  class="button"  onclick="window.location.href='https://api.whatsapp.com/send?phone=+50688291359&text=buenas%20para%20pedir%20informacion%20de%20los%20servicios'">Pedir Informacion</button>
+
+        </div>
+      </div>
+    
+      <div class="column">
+        <div class="card">
+          <h3>Supervisor </h3>
+          <img src="../oficial/img/carita.jpg" alt="" width="50%">
+          <br><br>
+
+          <button  class="button"  onclick="window.location.href='https://api.whatsapp.com/send?phone=+50663053562&text=buenas%20para%20pedir%20informacion%20de%20los%20servicios'">Pedir Informacion</button>
+
+        </div>
+      </div>
+      
+      <div class="column">
+        <div class="card">
+          <h3>Recepcionista</h3>
+          <img src="../oficial/img/carita.jpg" alt="" width="50%">
+          <br><br>
+
+          <button  class="button"  onclick="window.location.href='https://api.whatsapp.com/send?phone=+50663053562&text=buenas%20para%20pedir%20informacion%20de%20los%20servicios'">Pedir Informacion</button>
+
+        </div>
+      </div>
+      
+      <div class="column">
+        <div class="card">
+          <h3>Soporte Tecnico</h3>
+          <img src="../oficial/img/carita.jpg" alt="" width="50%">
+          <br><br>
+
+          <button  class="button"  onclick="window.location.href='https://api.whatsapp.com/send?phone=+50664174095&text=Buenas%20para%20pedir%20ayuda%20sobre%20como%20funciona%20la%20plataforma?,%20%20sobre%20pedidos%20de%20encargo'">Pedir Informacion</button>
+
+        </div>
+      </div>
+    </div>
+
+  </center>   
+   <br><br><br><br>
+</div>
+
+<center>
+  <br>
+  <h6 style="background-color: black;"> <br> &DoubleDownArrow;  Para Pedidos a Cualqueira de Nuestros Encargados
+      &DoubleDownArrow; <br><br>
+      <img src="../oficial/img/queque1.jpeg" alt="queque" width="90%" style="height: 500px;">
+      <br><br>
+</center>
+<!----------------------------->
+
+
+
+
+
+
+
+
+
+
+    <!-------Cartas---------->
+    <br><br>
+   <link rel="stylesheet" href="css/cartas.css">
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <h3>$ 7000</h3>
+            <p>TAMAÑO &rAarr; GRANDE</p>
+
+            <img src="img/q5.png" alt="" width="100%">
+            <p>Sin costo entrega </p>
+            <p>Desamparados</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3>$ 4000 </h3>
+            <p>TAMAÑO &rAarr; PEQUEÑO</p>
+
+            <img src="img/q5.png" alt="" width="100%">
+            <p>Sin costo entrega </p>
+            <p>Desamparados</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <h3>$ 2000</h3>
+            <p>TAMAÑO &rAarr; PERSONAL</p>
+
+            <img src="img/q5.png" alt="" width="100%">
+            <p>Con costo de entrega </p>
+            <p>Desamparados  ( Bajo Pedido )</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <h3>$ 1000</h3>
+            <p>TAMAÑO &rAarr; UNA PORCION</p>
+
+            
+            <img src="img/q5.png" alt="" width="100%">
+
+            <p>Con costo de entrega </p>
+            <p>Desamparados ( Bajo Pedido )</p>
+          </div>
+        </div>
+      </div>
+
+    <!--------Fin de Cartas--------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!--------SLIDER------------->
+
+ 
+<link rel="stylesheet" href="css/slider.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+ 
+
+<center>
+  
+
+<br>
+<div class="w3-content w3-display-container" style="max-width:90%">
+  <img class="mySlides" src="../oficial/img/evento.jpg" style="width:100%">
+  <img class="mySlides" src="../oficial/img/q2.jpg" style="width:100%">
+  <img class="mySlides" src="../oficial/img/q1.jpg" style="width:100%">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+ <!--   <span class="w3-badge demo w3-border w3-transparent w3-hover-orange" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-orange" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-orange" onclick="currentDiv(3)"></span>
+ -->
+  </div>
+</div>
+</center>
+  
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function currentDiv(n) {
+    showDivs(slideIndex = n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" w3-white", "");
+    }
+    x[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " w3-white";
+  }
+  </script>
+    <!-------------FIN DE SLIDER------>
+
+    <!-------Cartas---------->
+    <br><br>
+<center>
+  <h1>HORARIO</h1> <br>
+
+</center>    
+   <link rel="stylesheet" href="css/cartas.css">
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <h3>Lunes y Martes</h3>
+            <p>10 a.m - 9 p.m</p>
+            <p>Abierto.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3>Miercoles y jueves</h3>
+            <p>10 a.m - 9 p.m</p>
+            <p>Abierto.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <h3>Viernes y Sabado</h3>
+            <p>9 a.m - 10 p.m</p>
+            <p>Abierto.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <h3>Domingo</h3>
+            <p>11 p.m a 6 p.m</p>
+            <p>Abierto.</p>
+          </div>
+        </div>
+      </div>
+
+    <!--------Fin de Cartas--------->
+
+    <!---------------------Mensaje Anuncio------------>
+<link rel="stylesheet" href="css/anuncio.css">
+    <div class="callout">
+      <div class="callout-header">Queques Navideños</div>
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+      <div class="callout-container">
+        <div class="contenedor">
+          
+          <h4 style="font-size: 12px;">Tenemos Queques Navideños , realizados con ingredientes de alta calidad, para darle lo mejor a nuestros clientes.<span>&#160;</span></h4>
+<center>
+  <img src="http://1.bp.blogspot.com/-J4cSvUFLqa0/UREIZomcEwI/AAAAAAAAASU/loHRae7Z_8o/s1600/baker-whisk01.gif" alt="" width="40%">
+
+  <br><br>
+
+  <button  class="button"  onclick="window.location.href='https://api.whatsapp.com/send?phone=+50663053562&text=buenas%20para%20pedir%20informacion%20de%20los%20servicios'">Pedir Informacion</button>
+
+</center>  
+      </div>
+      
+      </div>
+    </div>
+
+    <!-------------------------Fin de mensaje de anuncio--------------->
+
+
+
+
+
+    <!------------------FOOTER-------------->
+    <br><br><br><br> <br>
+    <link rel="stylesheet" href="css/footer.css">
+    <footer>
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social_icon">
+          <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+      <!--  
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul> 
+      -->
+      <h5>Eventos Padilla Servicios de Alta Calidad</h5>
+        <p>&copy 2022 Diseño de Zero Corp | Paginas Webs Dinamicas</p>
+      </footer>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-----------------FIN DE FOOTER ----------------->
+</body>
+</html>
